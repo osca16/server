@@ -26,8 +26,11 @@ The main objective of this practical is to create two separate VMs on GCP and en
 
 Each VM hosts:
 
-* A **Node.js/Express backend** (port 3001)
-* A **Next.js frontend** (port 3000)
+* A **Node.js/Express backend** (port 3000)
+* to install > Go to project Root directory and type npm install and after that type npm start and press enter
+*
+* A **React.js + TailwindCss frontend** (port 5173)
+ to install > Go to project Root directory and type npm install and after that type npm run dev or npm run dev -- --host 0.0.0.0  and press enter
 
 Users connected to each VM can send messages to the other VM in real-time using AJAX requests.
 
@@ -79,16 +82,16 @@ Users connected to each VM can send messages to the other VM in real-time using 
 
 ### **Frontend**
 
-* Next.js
+* React.js
 * React Hooks
 * Fetch API (AJAX requests)
 * Lightweight HTML/CSS
 
 ### **Cloud / Deployment**
 
-* Google Cloud Platform (GCP)
+* AWS Instances (EC2)
 * Compute Engine Virtual Machines (Ubuntu 22.04 LTS)
-* GCP Firewall Rules
+* EC2 Firewall Rules
 * SSH Terminal
 
 ---
